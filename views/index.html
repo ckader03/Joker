@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Welcome to Express!></title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+  <h1>{{title}}</h1>
+  <h3> text </h3>
+  <div class="container">
+   {{ #actors }}
+    <p> {{ name }} </p>
+    <img src="{{img}}" alt="">
+   {{ /actors }}
+
+  </div>
+</body>
+</html>
